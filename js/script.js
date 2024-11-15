@@ -32,7 +32,7 @@ let lastNameInput = document.querySelector("#last_name");
 
 firstNameInput.addEventListener("input", function(){
     if (firstNameInput.value.toLowerCase() === "John")
-        {lastNameInput.value = "Doe"};
+        {lastNameInput.value = "Doe"}
     else 
       lastNameInput.value = "";
     
