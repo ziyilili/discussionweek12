@@ -1,0 +1,15 @@
+#instruction_button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 2px solid #007BFF;
+  background-color: #007BFF;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Toggled state */
+#instruction_button.toggled {
+  background-color: white;
+  color: #007BFF;
+}
